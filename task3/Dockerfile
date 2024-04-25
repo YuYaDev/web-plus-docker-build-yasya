@@ -10,5 +10,5 @@ COPY src/. .
 
 EXPOSE 3032
 
-#ENTRYPOINT [ "node", "main.js" ]
-CMD [ "node", "main.js" ]
+ENTRYPOINT [ "node", "main.js" ]
+#CMD [ "node", "main.js" ]
